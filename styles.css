@@ -51,6 +51,7 @@ body{
 
 .blog-image{
     width: 100%;
+    aspect-ratio: 42/25;
     object-fit: cover;
     margin-bottom: 2.4rem;
     border-radius: 14px;
@@ -143,5 +144,7 @@ body{
     html{
         font-size: 40%;
     }
-    
+    .blog-image{
+        aspect-ratio: 4/3;
+    }
 }
